@@ -1,0 +1,19 @@
+Intro
+1.)Mern stack is a combination of nongodb,ecpress,react and node js.
+2.)So ultimately, we will have 2 folders oe for back end and another for front end using react.
+3.)We as so created a script in the package json file and gave it a key value (dev).   XXXXXXXX
+4.)So what this basically does is that it runs what ever line of code we assign to it.
+5.)On that note, if we go to the terminal and type npm run dev it will run that code
+
+.env
+6.)So basically we have a port number and sometimes we might want to put our code in git repo.
+7.)And we wouldn't want that port number to be visible to everyone.so we installed the dotenv package.
+8.)This package creates an environment variable that will remain hidden.
+9.)So we create a .env file in the backend folder (coulde be name.env or what ever)
+10.)So the idea is when pushing the project to Git, just add the .env to the gitignore file so every thing there remains private.
+
+
+POSTMAN
+11.) Postman enables us to confirm if our requests(get,post,delete) is working 
+12.) Basically we select the type of request we are making and just paste our url there.
+13.) And we can save them too.
